@@ -20,15 +20,32 @@ If the arrival of materials follow poisson process with mean interval time 12 se
 3.	 The system reaches a stable steady state only when the service rate exceeds the arrival rate; otherwise, the queue grows without bound.
 4.	 Key performance measures—like average waiting time, average queue length, and server utilization—emerge from the balance between these two rates.
 5.	 Despite its simplicity, the model serves as a foundational benchmark for analysing more intricate queueing systems and real-world service operations.
+
 # Procedure: 
-<img width="847" height="255" alt="image" src="https://github.com/user-attachments/assets/f5b78f76-ddef-4bcd-afee-044fb0babdc8" />
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```
 
 # Program
+Name:Vignesh J
+
+Reg No:25014705
+
+Slot Name: 4J3-1
+
 ```
-Name:Rougith D
-Reg No:25017014
-Slot No:3P1-1
-```arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)")) 
+arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)")) 
 ser_time=float(input("Enter the mean inter servie time of Lathe Machine (in secs):")) 
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs):")) 
 lam=1/arr_time 
@@ -53,10 +70,13 @@ else:
     print("Warning! Objects overflow will happen in the conveyer") 
 print("----------------------------------------")
 ```
-https://colab.research.google.com/drive/1bybOr-MX2r7gcoNB6j9b2w7xNlqklEqp?usp=sharing
+
 
 # Output
 <img width="699" height="319" alt="Screenshot 2025-12-11 175059" src="https://github.com/user-attachments/assets/4191a4fc-711a-4894-aae1-9043d6717b2a" />
 
 # Result
-       The average number of material in the system and in the conveyor and waiting time are successfully found.
+```
+
+
+```
